@@ -176,6 +176,7 @@ function t(key) {
 // 导出 API
 export {
     initLanguage,
+    initLanguageSwitcher,
     switchLanguage,
     applyTranslations,
     getTranslation,

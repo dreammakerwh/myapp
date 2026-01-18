@@ -12,13 +12,16 @@ async function initApp() {
     // 等待语言系统初始化
     await i18n.initLanguage();
     currentLanguage = i18n.currentLanguage;
-    
+
+    // 初始化语言切换器
+    i18n.initLanguageSwitcher();
+
     // 渲染应用卡片
     renderApps();
-    
+
     // 初始化滚动指示器
     initScrollIndicator();
-    
+
     // 初始化图片懒加载
     initLazyLoading();
     
