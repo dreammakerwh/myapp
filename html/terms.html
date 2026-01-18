@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>服务协议 - NovaArcade</title>
+    <!-- 使用 Tailwind CSS CDN 实现快速样式开发 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+        .font-orbitron { font-family: 'Orbitron', sans-serif; }
+        /* 针对移动端优化，防止点击时的蓝色框 */
+        .no-tap-highlight { -webkit-tap-highlight-color: transparent; }
+        .glass-header { background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-950 text-slate-100 selection:bg-indigo-500/30">
+
+    <!-- 导航栏 -->
+    <header class="glass-header border-b border-slate-900 py-5 px-6 sticky top-0 z-50">
+        <div class="max-w-2xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-500/20">
+                    <i class="fas fa-gamepad text-white"></i>
+                </div>
+                <h1 class="text-xl font-bold font-orbitron tracking-tighter">NOVA<span class="text-indigo-500">ARCADE</span></h1>
+            </div>
+            <a href="index.html" class="text-slate-400 hover:text-white text-sm flex items-center gap-2">
+                <i class="fas fa-arrow-left"></i> 返回首页
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-2xl mx-auto px-5 py-10">
+        <!-- 页面标题 -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-extrabold mb-3 font-orbitron">用户服务协议</h2>
+            <p class="text-slate-500 text-sm">版本：1.0</p>
+        </div>
+
+        <!-- 服务协议内容 -->
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
+            <div class="p-8">
+                <div class="prose prose-invert max-w-none space-y-6">
+                    <p class="text-slate-300 leading-relaxed">
+                        请仔细阅读本服务协议。使用 NovaArcade 提供的任何游戏或服务，即表示您同意受本协议条款的约束。
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fas fa-file-contract text-indigo-500"></i> 1. 许可授权
+                        </h3>
+                        <p class="text-slate-400 leading-relaxed">
+                            NovaArcade 授予您一项个人的、非独占的、不可转让的许可，仅供您个人非商业用途使用我们的游戏软件。
+                        </p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fas fa-user-check text-indigo-500"></i> 2. 用户行为规范
+                        </h3>
+                        <p class="text-slate-400 leading-relaxed">
+                            您同意不进行以下行为：(a) 使用外挂或作弊软件；(b) 干扰游戏服务器运行；(c) 发布违法或侵犯他人权益的内容。
+                        </p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fas fa-copyright text-indigo-500"></i> 3. 知识产权
+                        </h3>
+                        <p class="text-slate-400 leading-relaxed">
+                            游戏内的所有内容（包括但不限于美术资源、代码、音乐）均归 NovaArcade 或其许可方所有，受版权法保护。
+                        </p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fas fa-exclamation-triangle text-indigo-500"></i> 4. 免责声明
+                        </h3>
+                        <p class="text-slate-400 leading-relaxed">
+                            服务按"现状"提供，不包含任何明示或暗示的保证。我们不保证服务不会中断或没有错误。
+                        </p>
+                    </div>
+
+                    <div class="space-y-4 pt-6">
+                        <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fas fa-info-circle text-indigo-500"></i> 重要提示
+                        </h3>
+                        <div class="bg-slate-800/50 p-6 rounded-xl border border-slate-700 space-y-4">
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 bg-indigo-600/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-clock text-indigo-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-sm">协议更新</h4>
+                                    <p class="text-slate-500 text-xs mt-1">
+                                        我们可能会不时更新本协议。继续使用我们的服务即表示您接受更新后的协议。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 bg-indigo-600/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-balance-scale text-indigo-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-sm">法律适用</h4>
+                                    <p class="text-slate-500 text-xs mt-1">
+                                        本协议受中华人民共和国法律管辖。任何争议应通过友好协商解决，协商不成的，提交有管辖权的人民法院诉讼解决。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 bg-indigo-600/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-language text-indigo-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-sm">语言版本</h4>
+                                    <p class="text-slate-500 text-xs mt-1">
+                                        如本协议的中文版本与英文版本存在冲突，以中文版本为准。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 底部按钮 -->
+            <div class="p-6 border-t border-slate-800 bg-slate-900/50 text-center">
+                <a href="index.html" class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-bold transition-colors text-sm">
+                    <i class="fas fa-home"></i> 返回首页
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="py-12 px-6 border-t border-slate-900 text-center mt-10">
+        <div class="flex flex-wrap justify-center gap-x-8 gap-y-3 text-xs font-semibold text-slate-500 mb-8">
+            <a href="index.html" class="hover:text-indigo-400">首页</a>
+            <a href="privacy.html" class="hover:text-indigo-400">隐私条款</a>
+            <a href="terms.html" class="text-indigo-400 font-bold">服务协议</a>
+            <a href="#" class="hover:text-indigo-400">关于我们</a>
+            <a href="#" class="hover:text-indigo-400">联系客服</a>
+        </div>
+        <p class="text-slate-600 text-[10px] tracking-widest uppercase">
+            © 2024 NovaArcade Studios. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
