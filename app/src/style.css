@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 自定义样式 */
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        @apply antialiased;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+@layer components {
+    .glass-header {
+        @apply bg-slate-950/90 backdrop-blur-md;
+        -webkit-backdrop-filter: blur(10px);
+    }
+    
+    .app-section {
+        @apply min-h-screen relative overflow-hidden;
+        scroll-snap-align: start;
+    }
+    
+    .lazy-image {
+        @apply opacity-0 transition-opacity duration-300;
+    }
+    
+    .lazy-image.loaded {
+        @apply opacity-100;
+    }
+    
+    .download-btn {
+        @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all duration-200;
+        min-width: 140px;
+    }
+    
+    .download-btn:hover {
+        @apply transform -translate-y-0.5 shadow-lg;
+    }
+    
+    .scroll-indicator {
+        @apply fixed right-4 top-1/2 -translate-y-1/2 z-40 flex flex-col gap-3;
+    }
+    
+    .indicator-dot {
+        @apply w-3 h-3 rounded-full bg-white/20 transition-all duration-300 cursor-pointer;
+    }
+    
+    .indicator-dot.active {
+        @apply bg-indigo-500 scale-125;
+    }
+    
+    /* 移动端优化 */
+    @media (max-width: 768px) {
+        .app-section {
+            scroll-snap-align: none; /* 在移动端禁用 snap 以获得更好的控制 */
+        }
+        
+        .scroll-indicator {
+            @apply hidden; /* 在移动端隐藏指示器以节省空间 */
+        }
+    }
+    
+    /* 深色模式增强 */
+    @media (prefers-color-scheme: dark) {
+        body {
+            @apply bg-slate-950;
+        }
+    }
+}
+
+@layer utilities {
+    .text-shadow {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    .bg-gradient-radial {
+        background-image: radial-gradient(circle at center, var(--tw-gradient-stops));
+    }
+}

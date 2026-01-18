@@ -1,0 +1,67 @@
+{
+    "site.title": "NovaArcade Apps - Mobile Game Showcase",
+    "nav.home": "Home",
+    "nav.privacy": "Privacy Policy",
+    "nav.terms": "Terms of Service",
+    "nav.about": "About Us",
+    "nav.contact": "Customer Support",
+    "language.en": "English",
+    "language.zh": "中文",
+    "language.switch": "Language",
+    "back.home": "Back to Home",
+    
+    "home.title": "NOVA<span class=\"text-indigo-500\">ARCADE</span>",
+    
+    "game.genre.action_rpg": "Action RPG",
+    "game.genre.adventure": "Adventure",
+    "game.genre.racing": "Racing",
+    "game.genre.puzzle": "Puzzle",
+    "game.genre.retro_rpg": "Retro RPG",
+    
+    "download.app_store": "App Store",
+    "download.google_play": "Google Play",
+    "download.get_on": "Get on",
+    
+    "app.section.title": "Our Games",
+    "app.features.title": "Key Features",
+    "app.screenshot.alt": "Game screenshot",
+    
+    "app.cyber_odyssey.title": "Cyber Odyssey",
+    "app.cyber_odyssey.alt": "Cyberpunk action RPG game screenshot",
+    "app.cyber_odyssey.description": "Immersive cyberpunk world, experience ultimate action combat and character customization.",
+    "app.cyber_odyssey.features": "• Dynamic combat system\n• Deep character customization\n• Cyberpunk aesthetic world\n• Engaging storyline",
+    
+    "app.mystic_realms.title": "Mystic Realms",
+    "app.mystic_realms.alt": "Fantasy adventure game screenshot",
+    "app.mystic_realms.description": "Explore mysterious floating islands, uncover forbidden magic hidden in ancient ruins.",
+    "app.mystic_realms.features": "• Vast open world exploration\n• Magic-based combat system\n• Ancient ruins and puzzles\n• Mythical creatures",
+    
+    "app.speed_velocity.title": "Speed Velocity",
+    "app.speed_velocity.alt": "Racing game screenshot",
+    "app.speed_velocity.description": "High-stakes urban street racing, customize your exclusive battle car, dominate midnight tracks.",
+    "app.speed_velocity.features": "• Realistic driving physics\n• Extensive car customization\n• Dynamic weather system\n• Competitive multiplayer",
+    
+    "app.zen_garden.title": "Zen Garden",
+    "app.zen_garden.alt": "Puzzle relaxation game screenshot",
+    "app.zen_garden.description": "Find inner peace through exquisite puzzles in a serene zen garden.",
+    "app.zen_garden.features": "• Relaxing puzzle gameplay\n• Beautiful zen garden visuals\n• Soothing soundtrack\n• Stress-relief mechanics",
+    
+    "app.pixel_quest.title": "Pixel Quest",
+    "app.pixel_quest.alt": "Retro RPG game screenshot",
+    "app.pixel_quest.description": "Classic 8-bit pixel dungeon adventure, hone skills, slay monsters, collect epic equipment.",
+    "app.pixel_quest.features": "• Retro 8-bit graphics\n• Dungeon crawling gameplay\n• Character progression system\n• Epic boss battles",
+    
+    "privacy.section.title": "Privacy Protection Statement",
+    "privacy.section.content": "We highly value the protection of your personal information. Our platform and games are committed to following the principle of minimal data collection.",
+    "privacy.data_storage.title": "Data Storage:",
+    "privacy.data_storage.content": "Game progress and preference settings are by default saved only on your local device to ensure data security.",
+    "privacy.info_collection.title": "Information Collection:",
+    "privacy.info_collection.content": "We promise not to actively collect sensitive privacy information such as your location, contacts, SMS records, etc.",
+    
+    "footer.copyright": "© 2024 NovaArcade Studios. All Rights Reserved.",
+    
+    "scroll.indicator": "Scroll progress",
+    
+    "app.store.badge": "Available on the App Store",
+    "play.store.badge": "Get it on Google Play"
+}

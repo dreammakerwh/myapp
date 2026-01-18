@@ -1,0 +1,67 @@
+{
+    "site.title": "NovaArcade 应用 - 移动游戏展示",
+    "nav.home": "首页",
+    "nav.privacy": "隐私条款",
+    "nav.terms": "服务协议",
+    "nav.about": "关于我们",
+    "nav.contact": "联系客服",
+    "language.en": "English",
+    "language.zh": "中文",
+    "language.switch": "语言",
+    "back.home": "返回首页",
+    
+    "home.title": "NOVA<span class=\"text-indigo-500\">ARCADE</span>",
+    
+    "game.genre.action_rpg": "动作角色扮演",
+    "game.genre.adventure": "冒险",
+    "game.genre.racing": "竞速",
+    "game.genre.puzzle": "解谜",
+    "game.genre.retro_rpg": "复古角色扮演",
+    
+    "download.app_store": "App Store",
+    "download.google_play": "Google Play",
+    "download.get_on": "下载于",
+    
+    "app.section.title": "我们的游戏",
+    "app.features.title": "主要特性",
+    "app.screenshot.alt": "游戏截图",
+    
+    "app.cyber_odyssey.title": "赛博奥德赛",
+    "app.cyber_odyssey.alt": "赛博朋克动作角色扮演游戏截图",
+    "app.cyber_odyssey.description": "身临其境的赛博朋克世界，体验极致的动作战斗与角色定制。",
+    "app.cyber_odyssey.features": "• 动态战斗系统\n• 深度角色定制\n• 赛博朋克美学世界\n• 引人入胜的故事情节",
+    
+    "app.mystic_realms.title": "神秘领域",
+    "app.mystic_realms.alt": "奇幻冒险游戏截图",
+    "app.mystic_realms.description": "探索神秘的浮空岛屿，揭开远古遗迹中隐藏的禁忌魔法。",
+    "app.mystic_realms.features": "• 广阔开放世界探索\n• 基于魔法的战斗系统\n• 古代遗迹与谜题\n• 神话生物",
+    
+    "app.speed_velocity.title": "极速狂飙",
+    "app.speed_velocity.alt": "赛车游戏截图",
+    "app.speed_velocity.description": "高风险的城市街头赛车，定制你的专属战车，统治午夜赛道。",
+    "app.speed_velocity.features": "• 真实驾驶物理效果\n• 丰富的汽车定制选项\n• 动态天气系统\n• 竞争性多人模式",
+    
+    "app.zen_garden.title": "禅意花园",
+    "app.zen_garden.alt": "解谜放松游戏截图",
+    "app.zen_garden.description": "在宁静的禅意花园中通过精妙的解谜寻找内心的平静。",
+    "app.zen_garden.features": "• 放松的解谜玩法\n• 美丽的禅意花园视觉效果\n• 舒缓的背景音乐\n• 减压机制",
+    
+    "app.pixel_quest.title": "像素冒险",
+    "app.pixel_quest.alt": "复古角色扮演游戏截图",
+    "app.pixel_quest.description": "经典的8位像素地牢冒险，磨练技能，斩妖除魔，收集史诗装备。",
+    "app.pixel_quest.features": "• 复古8位像素图形\n• 地牢探索玩法\n• 角色成长系统\n• 史诗级首领战",
+    
+    "privacy.section.title": "隐私保护声明",
+    "privacy.section.content": "我们高度重视您的个人信息保护。本平台及旗下游戏致力于遵循最小化数据收集原则。",
+    "privacy.data_storage.title": "数据存储：",
+    "privacy.data_storage.content": "游戏进度与偏好设置默认仅保存在您的本地设备上，保障数据安全。",
+    "privacy.info_collection.title": "信息收集：",
+    "privacy.info_collection.content": "我们承诺不主动收集您的地理位置、通讯录、短信记录等敏感隐私信息。",
+    
+    "footer.copyright": "© 2024 NovaArcade Studios. 保留所有权利。",
+    
+    "scroll.indicator": "滚动进度",
+    
+    "app.store.badge": "App Store 提供",
+    "play.store.badge": "Google Play 下载"
+}
