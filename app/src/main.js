@@ -136,7 +136,7 @@ function createAppCard(app, index) {
                         <!-- 下载按钮 -->
                         <div class="flex flex-wrap gap-4">
                             <a href="${app.appStoreUrl}" 
-                               class="download-btn ${color} text-white hover:opacity-90"
+                               class="download-btn ${color} text-white hover:opacity-90 border-2 border-white/30 hover:border-white/50 shadow-lg"
                                target="_blank"
                                rel="noopener noreferrer">
                                 <i class="fab fa-apple text-xl"></i>
